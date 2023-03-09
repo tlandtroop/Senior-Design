@@ -5,7 +5,7 @@ export default function Navbar() {
     return (
         <nav className="py-5 px-5 flex justify-between bg-blue">
             <div className="flex items-center">
-                <Link className="bg-orange text-white font-medium font-montserrat py-2 px-4 rounded-md" href={"/dashboard"}>LOGIN</Link>
+                <Link className="bg-orange text-white font-medium font-montserrat py-2 px-4 rounded-md" href={"/login"}>LOGIN</Link>
                 <Link className="text-white font-medium font-montserrat py-4 px-4 hover:underline" href={"/group"}>GROUP</Link>
                 <Link className="text-white font-medium font-montserrat py-4 px-4" href={"/projects"}>PROJECTS</Link>
                 <Link className="text-white font-medium font-montserrat py-4 px-4" href={"/profile"}>PROFILE</Link>

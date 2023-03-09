@@ -4,14 +4,21 @@ import Navbar from '../components/Navbar'
 import Stack from '../components/Stack'
 import Topics from '../components/Topics'
 import ProfileTeam from '../components/ProfileTeam'
+import Student from '../components/Student'
+import Bio from '../components/Bio'
 
 export default function Profile() {
     return (
         <>
             <Navbar />
-            <Stack />
-            <Topics />
-            <ProfileTeam />
+            <div className="">
+                <div>
+                    <Stack />
+                    <Topics />
+                    <ProfileTeam />
+                </div>
+            </div>
         </>
+
     )
 }
